@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    [<span th:text="${session.mailadress}">dummy</span>]さん、ようこそ<br>
+    <a href="login-complite.html"
+     th:href="@{/login-session/login-complite}">マイページ</a>
+</body>
+</html>
