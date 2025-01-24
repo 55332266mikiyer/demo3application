@@ -7,9 +7,18 @@
 </head>
 <body>
     <form th:action="@{/calc/answer-calc}" method="post">
-        <input type="text" name="num1"> +
+        <!-- <input type="text" name="num1"> +
         <input type="text" name="num2">
-        <button>計算</button>
+        <button>計算</button> -->
+        <input type="number" name="num1">
+        <select name="operator">
+            <option value="＋">＋</option>
+            <option value="－">－</option>
+            <option value="×">×</option>
+            <option value="÷">÷</option>
+        </select>
+        <input type="number" name="num2">＝<br>
+        <button>送信</button>
     
 </body>
 </html>
