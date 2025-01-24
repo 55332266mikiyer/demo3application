@@ -1,12 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
-    入力された名前は[<span th:text="${hogehoge}">dummy</span>]です
-    マイページ
+    アクセスカウンター：<span th:text="${applicaion.counter}">1000</span>回目のアクセスです
 </body>
 </html>

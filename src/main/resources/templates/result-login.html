@@ -6,7 +6,8 @@
     <title>Document</title>
 </head>
 <body>
-    入力された名前は[<span th:text="${hogehoge}">dummy</span>]です
-    マイページ
+    [<span th:text="${session.mailadress}">dummy</span>]さん、ようこそ<br>
+    <a href="login-complite.html"
+     th:href="@{/login-session/login-complite}">マイページ</a>
 </body>
 </html>
